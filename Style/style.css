@@ -27,3 +27,25 @@ nav {
     font-weight: 800;
     text-transform: uppercase;
 }
+
+header {
+    display: flex;
+}
+
+.info {
+
+}
+
+#subtitle {
+    color: #c4c4c4;
+    letter-spacing: 3px;
+}
+
+#subtitle span {
+    background-color: blue;
+    color: white;
+    padding: 0.25rem 0.45rem;
+    border-radius: 1rem;
+    letter-spacing: 0;
+    margin-right: 0.5rem;
+}
