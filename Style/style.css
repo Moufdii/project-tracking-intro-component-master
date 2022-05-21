@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 6rem 3rem;
+}
+
+.link-container {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    color: darkblue;
+
+}
+
+.login {
+    color: #c4c4c4;
+}
+
+.link-container a {
+    font-size: 1.25rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
